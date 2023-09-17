@@ -1,0 +1,43 @@
+#general settings
+#name=reve
+name: reve
+
+#object settings
+#server.servlet.context-path=/reve
+person:
+ name: zhangsan
+ age: 18
+ addr: beijing
+ 
+#行内对象配置 一般用object settings
+#person: {name: zhangsan,age: 18,addr: beijing}
+
+#配置数据，集合
+city:
+ - beijing
+ - tianjing
+ - chongqing
+ - shanghai
+
+#city: [beijing,tianjing,chongqing,shanghai]
+
+#配置数据，集合(object data)
+#[name,age,addr] is a object
+student:
+ - name: tom
+   age: 18
+   addr: beijing
+ - name: reve
+   age: 17
+   addr: tianjin
+   
+#student: [{name: tom,age: 18,addr: beijing},{name: reve,age: 17,addr: tianjin}]
+
+#Map Settings
+map:
+ key1: value1
+ key2: value2
+ key3: value3
+
+server:
+ port: 8085

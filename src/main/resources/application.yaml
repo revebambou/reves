@@ -1,0 +1,16 @@
+server:
+ port: 8082
+spring:
+ profiles:
+#  active: learn
+  active: dev
+#general settings
+#name=reve
+name: reve
+
+#object settings
+#server.servlet.context-path=/reve
+person:
+ name: zhangsan
+ age: 18
+ addr: beijing
